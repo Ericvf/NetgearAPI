@@ -9,7 +9,7 @@ namespace NetgearApi
         {
             do
             {
-                // SessionID was found using Wireshark, but your could be the same
+                // SessionID was found using Wireshark, but yours could be the same
                 // https://github.com/balloob/pynetgear/blob/master/capture/device_scan.request
                 var clients = NetgearApi.GetClients("A7D88AE69687E58D9A00");
 
